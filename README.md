@@ -30,7 +30,7 @@ java -Xmx20G -jar validateSVIllumina.jar --input-bam-file input_bam_file --sniff
 - --output-file*: Output file.
 - --search-width: Window around the SV breakpoints for extracting reads (default: 250nt).
 - --discordant-distance: Distance between read-pairs to be considered discordant (default: 1000nt).
-- --threads: Comma-separated list of decoy names (default: 1).    
+- --threads: Number of threads (default: 1).    
 - --help, -help: Get usage information.
 - --version, -version: Get current version.
 - \* Required.
